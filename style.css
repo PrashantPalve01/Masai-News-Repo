@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: rgb(242, 246, 255);
+    padding: 2% 10%;
+}
+.container h1, .container1 h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.news_cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-weight: bold;
+    
+}
+.news_cards > div{
+    width: 26%;
+    padding: 35px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card_header img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.card_footer{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.card_footer p:first-child{
+    color: rgb(52, 110, 227);
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_footer p:last-child{
+    color: rgb(84, 77, 79);
+    margin-top: 12px;
+}
+.card_footer h4{
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button_part{
+    text-align: center;
+}
+.container button, .container1 button{
+    margin-top: 40px;
+    width: 10%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px red solid;
+    color: red;
+    background-color: rgb(242, 246, 255);
+}
+
+.container1{
+    padding: 3% 10%;
+}
+.our_investor{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_investor > div{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.our_investor > div img{
+    width: 100%;
+}
+
+.container1 button{
+    width: 18%;
+}
